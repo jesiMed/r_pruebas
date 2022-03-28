@@ -1,6 +1,8 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Boton  from './components/Boton';
+import Titulo from './components/Titulo';
 
 function App() {
   return (
@@ -18,6 +20,8 @@ function App() {
         >
           Learn React
         </a>
+        <Titulo></Titulo>
+        <Boton></Boton>
       </header>
     </div>
   );
