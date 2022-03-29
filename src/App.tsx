@@ -20,7 +20,7 @@ function App() {
         >
           Learn React
         </a>
-        <Titulo></Titulo>
+        <Titulo texto={ "hola "}></Titulo>
         <Boton></Boton>
       </header>
     </div>

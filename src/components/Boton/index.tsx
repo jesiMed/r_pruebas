@@ -1,11 +1,24 @@
 // import titulo;
 
+import { useState } from "react";
+import Titulo from "../Titulo";
+
 const Boton = ()=>{
-	
-    return(
+    const [texto, setTexto] = useState("");
+    
+    
+    return (
+        
         <div>
-            <button>siguiente</button>
-            <button>volver</button>
+            <Titulo texto={texto}></Titulo>
+
+            <button onClick={() => { 
+                setTexto("hola");
+            }} >siguiente</button>
+
+            <button onClick={() => { 
+                setTexto("chau");
+            }}>volver</button>
         </div>
     ); 
 	
